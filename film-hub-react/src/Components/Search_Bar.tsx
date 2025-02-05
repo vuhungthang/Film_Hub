@@ -49,7 +49,7 @@ function SearchBar() {
     return (
         <div className="max-w-md mx-auto p-6 bg-gray-100 rounded-lg shadow-md">
             <h1 className="text-2xl font-bold text-center text-gray-800 mb-6">
-                Search Your Favorite Films
+                Search Your Favorite Film
             </h1>
             <form onSubmit={handleSearch} className="flex flex-col items-center gap-4 mb-6">
                 <label htmlFor="search-bar" className="text-gray-700 font-medium">
